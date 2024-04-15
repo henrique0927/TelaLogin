@@ -1,0 +1,65 @@
+@import "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(29, 29, 29);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+section  {
+    background-color: salmon;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.title-login {
+    text-align: center;
+    font-size: 2rem;
+}
+
+div {
+    text-align: center;
+    margin: 7%;
+}
+
+label {
+    text-align: left;
+    color: white;
+}
+
+input {
+    border: 0px solid white;
+    padding: 2%;
+    color: black;
+    text-decoration: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+button {
+    align-items: center;
+    padding: 3%;
+    margin-top: 10%;
+    width: 9vw;
+    color: white;
+    border-radius: 5px;
+    border: 0px solid white;
+    background-color: green;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(1, 109, 1);
+    font-weight: 600;
+}
